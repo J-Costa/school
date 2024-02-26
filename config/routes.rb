@@ -7,7 +7,5 @@ Rails.application.routes.draw do
 
   root "students#welcome"
 
-  resources :students do
-
-  end
+  resources :students
 end

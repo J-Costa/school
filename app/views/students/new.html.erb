@@ -1,0 +1,9 @@
+<h1>Cadastrar aluno</h1>
+<%= form_for :student do |f| %>
+  Nome: <%= f.text_field :name %><br/>
+  Email: <%= f.text_field :email %><br/>
+  CPF: <%= f.text_field :cpf %><br/>
+  Endereço: <%= f.text_field :address %><br/>
+  Data de nascimento: <%= f.date_field :birthdate %><br/>
+  <%= f.submit %>
+<% end %>

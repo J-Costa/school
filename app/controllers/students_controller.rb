@@ -1,6 +1,8 @@
 class StudentsController < ApplicationController
 
-  def welcome
+  def welcome; end
+
+  def pre_register
     @student = Student.new
   end
 end
